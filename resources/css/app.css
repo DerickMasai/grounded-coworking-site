@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .h-104 {
+        height: 26rem;
+    }
+}
+
+::selection {
+    background: rgba(162, 146, 107, 50%);
+}
